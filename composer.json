@@ -1,0 +1,29 @@
+{
+    "name": "codestacx/contacts",
+    "description": "Sending Email to Admin",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JackSparroow",
+            "email": "muhammadatif.pucit@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+
+
+    "autoload-dev": {
+        "psr-4": {
+            "Codestacx\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codestacx\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
